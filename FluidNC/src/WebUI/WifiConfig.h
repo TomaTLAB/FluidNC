@@ -43,14 +43,14 @@ namespace WebUI {
 
     //defaults values
     static const char* DEFAULT_HOSTNAME   = "fluidnc";
-    static const char* DEFAULT_STA_SSID   = "";
-    static const char* DEFAULT_STA_PWD    = "";
+    static const char* DEFAULT_STA_SSID   = "SSID";
+    static const char* DEFAULT_STA_PWD    = "PASSWORD";
     static const char* DEFAULT_STA_IP     = "0.0.0.0";
     static const char* DEFAULT_STA_GW     = "0.0.0.0";
     static const char* DEFAULT_STA_MK     = "0.0.0.0";
     static const char* DEFAULT_AP_SSID    = "FluidNC";
     static const char* DEFAULT_AP_PWD     = "12345678";
-    static const char* DEFAULT_AP_IP      = "192.168.0.1";
+    static const char* DEFAULT_AP_IP      = "192.168.10.1";
     static const char* DEFAULT_AP_MK      = "255.255.255.0";
     static const int   DEFAULT_AP_CHANNEL = 1;
 
